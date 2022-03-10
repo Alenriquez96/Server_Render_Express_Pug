@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/Alenriquez96/Server_Render_Express_Pug#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "fetch": "^1.1.0",
     "node-fetch": "^2.6.7",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "request": "^2.88.2"
   }
 }

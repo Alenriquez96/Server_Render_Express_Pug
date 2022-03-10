@@ -7,9 +7,7 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./css/styles.css")
     body 
-        form(action="/", method="post") 
-            label(for="films") Introduce el título de la película
-            br
-            br
-            input(type="text" id="films" name="films" placeholder="Título...")
-
+        p Título: #{films.Title}
+        p Año: #{films.Year}
+        p Director: #{films.Director}
+        img(src=films.Poster)
