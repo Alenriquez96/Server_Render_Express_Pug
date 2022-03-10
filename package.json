@@ -1,0 +1,25 @@
+{
+  "name": "server_render_express_pug",
+  "version": "1.0.0",
+  "description": "Server Render con Express + Pug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alenriquez96/Server_Render_Express_Pug.git",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alenriquez96/Server_Render_Express_Pug/issues"
+  },
+  "homepage": "https://github.com/Alenriquez96/Server_Render_Express_Pug#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "pug": "^3.0.2"
+  }
+}
